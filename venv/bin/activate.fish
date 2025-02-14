@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /home/bryson/projects/flask-llm-bank-extraction/venv
+set -gx VIRTUAL_ENV /home/bryson/bryson/flask-llm-bank-extraction/venv
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH

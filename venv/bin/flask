@@ -1,4 +1,4 @@
-#!/home/bryson/projects/flask-llm-bank-extraction/venv/bin/python3
+#!/home/bryson/bryson/flask-llm-bank-extraction/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
