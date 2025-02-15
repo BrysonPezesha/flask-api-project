@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV=/home/bryson/bryson/flask-llm-bank-extraction/venv
+VIRTUAL_ENV=/home/bryson/bryson/flask-api-project/venv
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
