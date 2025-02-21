@@ -102,3 +102,42 @@ POST /auth/refresh
 - Docker setup for deployment
 - Logging & monitoring
 
+
+
+Repository structure
+
+```
+flask-api-project/
+├── app.py                    # Main entry point
+├── config.py                 # Configuration file
+├── extensions.py             # Extensions (e.g., SQLAlchemy, etc.)
+├── requirements.txt          # Dependencies
+├── docker-compose.yaml
+├── README.md
+|
+├── uploads/                  # Uploaded files
+│   └── Equity.pdf
+|
+├── routes/                   # API endpoint definitions (Flask Blueprints)
+│   ├── __init__.py           # Package initializer
+│   ├── auth.py               # Authentication endpoints (login, register, etc.)
+│   ├── uploads.py            # File upload endpoints
+│   └── protected.py          # Protected endpoints
+|
+├── models/                   # SQLAlchemy models
+│   ├── __init__.py           # Package initializer
+│   ├── user.py               # User model
+│   └── upload.py             # Upload model
+|
+├── resources/                
+│   ├── __init__.py
+│   ├── auth.py
+│   ├── protected.py
+│   └── uploads.py
+|
+└── services/                 # Business logic / helper functions
+    ├── __init__.py           # Package initializer
+    ├── auth_service.py       # Authentication logic (e.g., verify user, password hashing)
+    └── file_service.py       # File processing logic
+    └── user_service.py
+```
