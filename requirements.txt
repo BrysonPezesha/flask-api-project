@@ -7,3 +7,12 @@ MarkupSafe==3.0.2
 Werkzeug==3.1.3
 flask
 flask-jwt-extended
+psycopg2-binary 
+sqlalchemy 
+flask-sqlalchemy
+flask-migrate
+celery 
+django-celery-beat
+redis
+pika  # Required if using RabbitMQ
+faker
